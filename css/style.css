@@ -105,7 +105,7 @@ MAIN PROGRAM
   padding-top: 25px;
 }
 
-hr {
+.hr {
   width: 8%;
   display: flex;
   margin-left: 46%;
@@ -351,4 +351,265 @@ SPEAKERS
   .location {
     font-size: 28px;  
   }  
+}
+
+/*
+ABOUT ME
+PAGE
+*/
+
+.title-about-me {
+  font-size: 25px;
+  font-weight: 400;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.title-2-about-me {
+  width: 100%;
+  font-size: 45px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.article-about-me {
+  background-color: white;
+  border: 3px solid white;
+  border-radius: 6px;
+  width: 100%;
+  height: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.article-p-about-me {
+  padding: 20px 5px;
+  font-size: 18px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+.contact-p {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/*
+LOGO
+*/
+
+.logo {
+  background-color: #f7f7f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.creative-commons {
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+}
+
+.logo-title {
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+}
+
+.hr-about-me {
+  width: 8%;
+  display: flex;
+  margin-left: 46%;
+  margin-top: 20px;
+  border-bottom: 1px solid orangered;
+  color: red;
+}
+
+.logo-p {
+  padding-top: 15px;
+  padding-bottom: 50px;
+  color: #343a40;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.article-logo {
+  display: flex;
+  justify-content: center;
+  background-color: #f7f7f9;
+  border: 1px solid grey;
+  border-radius: 6px;
+  width: 80%;
+  height: auto;
+  margin-bottom: 25px;
+}
+
+.logo-soda {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.article-- {
+  display: flex;
+  justify-content: center;
+}
+
+/*
+PAST
+CONCERTS
+*/
+
+.past-concerts {
+  background-color: #f7f7f9;
+  padding-top: 50px;
+  height:1200px;
+}
+
+.logo-p-past-concerts {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #343a40;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.concert-1 {
+  background-image: url(../img/mobile/concert-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 35%;
+  margin: 10%;
+}
+
+.letters-concert {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 99, 71, 0.5);
+  height: 100%;
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+
+.date-about-me {
+  font-size: 40px;
+}
+
+.location-about-me {
+  font-size: 30px;
+}
+
+/*
+PARTNERS
+*/
+
+.partners {
+  background-color: #343a40;
+  height: 300px;
+}
+
+.logo-title-partner {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+}
+
+.partner {
+  padding-top: 10px;
+}
+
+.partners-ul-1 {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  align-items: center;
+}
+
+.partners-li {
+  width: 30%;
+}
+
+.partners-a {
+  text-decoration: none;
+}
+
+.coca-img {
+  width: 100%
+}
+
+.river-img {
+  width: 50%;
+  padding-left: 40px;
+}
+
+.google-img {
+  width: 100%;
+}
+
+.partners-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  align-items: center;
+}
+
+.velez-img {
+  width: 50%;
+}
+
+.argentina-img {
+  width: 100%;
+}
+
+/*
+FOOTER
+*/
+
+footer {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-footer {
+  width: 20%;
+}
+
+.copyright {
+  font-size: 20px;
 }
