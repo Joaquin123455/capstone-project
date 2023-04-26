@@ -1,0 +1,354 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(../img/mobile/caleb-george-pH88tHG-1yw-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 375px;
+  max-width: 768px;
+  font-family: 'Lato', sans-serif;
+}
+
+/*
+HEADER
+*/
+
+header {
+  width: 100%;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
+.nav-bar {
+  align-items: center;
+  font-size: 32px;
+}
+
+.fa-bars {
+  color: black;
+  padding-top: 10px;
+}
+
+/*
+MAIN PAGE
+*/
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 400;
+  padding-top: 40px;
+}
+
+.title-2 {
+  width: 100%;
+  font-size: 45px;
+  font-weight: 900;
+  text-align: left;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+.article {
+  background-color: grey;
+  border: 3px solid white;
+  border-radius: 6px;
+  width: 100%;
+  height: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.article-p {
+  padding: 5px;
+}
+
+.dates {
+  font-size: 27px;
+  font-weight: bold;
+  padding-bottom: 6px
+}
+
+.location {
+  font-size: 19px;
+  padding-bottom: 120px;
+}
+
+/*
+MAIN PROGRAM
+*/
+
+.main-program {
+  background-image: url(../img/mobile/main-program-image.jpg);
+  background-size: cover;
+
+}
+
+.main-program-title {
+  padding-bottom: 50px;
+}
+
+.main-program-h3 {
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+hr {
+  width: 8%;
+  display: flex;
+  margin-left: 46%;
+  margin-top: 20px;
+  border-bottom: 1px solid orangered;
+  color: red;
+}
+
+.activity {
+  margin: 24px;
+  padding: 5px;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(128, 128, 128, 0.8);
+}
+
+.activity-img {
+  width: 10%;
+  padding-right: 10px;
+}
+
+.activity-h3 {
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.activity-p {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.activity-2 {
+  margin: 24px;
+  padding: 5px;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(128, 128, 128, 0.8);
+}
+
+.button-ticket {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  padding-bottom: 50px;
+}
+
+.ticket {
+  padding: 30px 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: orangered;
+  box-sizing: border-box;
+  border: 1px solid orangered;
+}
+
+.ticket:hover {
+  background-color:white;
+  transition: 0.3s;
+}
+
+.ticket:active {
+  background-color: white;
+}
+
+/*
+FEATURED
+SPEAKERS
+*/
+
+.featured-speakers {
+  background-color:#f7f7f9;
+  height: auto;
+}
+
+.featured-speakers-h3 {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.members {
+  padding-top: 50px;
+  margin-left: 24px;
+}
+
+.members-team {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 25px;
+  align-items: center;
+}
+
+.members-img-div {
+  width: 130%;
+  padding-top: 25px;
+}
+
+.members-img {
+  width: 80%;
+}
+
+.members-h4 {
+  font-size: 22px;
+}
+
+.members-h5 {
+  font-size: 16px;
+  color: orangered;
+}
+
+.members-p {
+  padding-top: 10px;
+  margin-right: 24px;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+
+.more {
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: transparent;
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 80%;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+
+.down-solid-img {
+  width: 5%;
+  height: 40px;
+}
+
+
+@media (min-width: 510px) {
+  .members-h4 {
+  font-size: 25px;
+  }
+
+  .members-h5 {
+  font-size: 19px;
+  }
+
+  .members-p {
+  font-size: 13px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+  
+  .title-2 {
+    font-size: 48px;
+  }
+  
+  .article-p {
+    font-size: 18px;
+  }
+  
+  .dates {
+    font-size: 30px;
+  }
+  
+  .location {
+    font-size: 22px;  
+  }  
+}
+
+@media (min-width: 590px){
+  .members-h4 {
+    font-size: 28px;
+  }
+
+  .title {
+    font-size: 31px;
+  }
+  
+  .title-2 {
+    font-size: 51px;
+  }
+  
+  .article-p {
+    font-size: 21px;
+  }
+  
+  .dates {
+    font-size: 33px;
+  }
+  
+  .location {
+    font-size: 25px;  
+  }  
+}
+
+@media (min-width: 650px) {
+  .members-h4 {
+    font-size: 32px;
+  }
+
+  .members-h5 {
+    font-size: 25px;
+  }
+
+  .members-p {
+    font-size: 19px;
+  }
+
+  .title {
+    font-size: 34px;
+  }
+  
+  .title-2 {
+    font-size: 54px;
+  }
+  
+  .article-p {
+    font-size: 24px;
+  }
+  
+  .dates {
+    font-size: 37px;
+  }
+  
+  .location {
+    font-size: 28px;  
+  }  
+}
