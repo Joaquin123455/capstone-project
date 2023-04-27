@@ -27,9 +27,18 @@ header {
   font-size: 32px;
 }
 
+.nav-bar-hidden {
+  display: none;
+}
+
 .fa-bars {
   color: black;
   padding-top: 10px;
+  display: flex;
+}
+
+.img-logo-header-hidden {
+  display: none;
 }
 
 /*
@@ -56,6 +65,10 @@ MAIN PAGE
   text-align: left;
   text-transform: uppercase;
   padding-top: 10px;
+}
+
+.title-2-hidden {
+  display: none;
 }
 
 .article {
@@ -134,6 +147,12 @@ MAIN PROGRAM
   padding-right: 10px;
 }
 
+.activity-h3-hidden {
+  display: none;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
 .activity-p {
   width: 80%;
   display: flex;
@@ -206,6 +225,10 @@ SPEAKERS
   align-items: center;
 }
 
+.members-team-hidden {
+  display: none;
+}
+
 .members-img-div {
   width: 130%;
   padding-top: 25px;
@@ -251,13 +274,24 @@ SPEAKERS
   gap: 20px;
 }
 
-
-
 .down-solid-img {
   width: 5%;
   height: 40px;
 }
 
+.partners-hidden {
+  display: none;
+  background-color: #343a40;
+  height: 300px;
+}
+
+.footer-hidden {
+  display: none;
+  background-color: white;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
 @media (min-width: 510px) {
   .members-h4 {

@@ -1,0 +1,211 @@
+@media (min-width: 765px) {
+  body {
+    min-width: 765px;
+    max-width: 2000px;
+  }
+  
+  header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+  }
+  
+  .nav-bar {
+    display: none;
+  }
+  
+  .img-logo-header-hidden {
+    display: flex;
+    width: 100%;
+    margin-left: 150px;
+  }
+
+  .a-link {
+    width: 50px;
+    height: 50px;
+  }
+  .nav-bar-hidden {
+    display: flex;
+    gap: 50px;
+    margin-right: 150px;
+  }
+
+  .nav-bar-hidden-a {
+    text-decoration: none;
+    color: black;
+  }
+
+  /*
+  MAIN
+  PAGE
+  */
+
+  .main-page {
+    margin: 150px;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+
+  .title-2 {
+    display: none;
+  }
+
+  .title-2-hidden {
+    display: flex;
+    width: 100%;
+    font-size: 70px;
+    font-weight: 900;
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 10px;
+  }
+
+  .article {
+    width: 60%;
+  }
+
+  .dates {
+    font-size: 45px;
+  }
+
+  .location {
+    font-size: 35px;
+  }
+
+  /*
+  MAIN
+  PROGRAM
+  */
+  
+  .main-program-title {
+    padding-bottom: 100px;
+  }
+
+   .activities {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   } 
+
+
+  .activity {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 12%;
+    margin: 5px;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .activity-2 {
+    flex-direction: column;
+    width: 12%;
+    margin: 5px;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .activity-img {
+    width: 50%;
+  }
+
+  .activity-h3 {
+    display: none; 
+  }
+
+  .activity-h3-hidden {
+    display: flex;
+  }
+
+  .activity-p {
+    width: 100%;
+  }
+
+  /*
+  FEATURED
+  SPEAKERS
+  */
+
+  .members {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 50px;
+    margin: 0 24px;
+  }
+
+  .members-team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.8);
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .members-img-div {
+    width: 80%;
+  }
+
+  .members-img {
+    width: 100%;
+  }
+
+  .button-div {
+    display: none;
+  }
+
+  /*
+  PARTNERS
+  */
+
+  .partners-hidden {
+    display: flex;
+    flex-direction: column;
+    background-color: #343a40;
+    height: 300px;
+  }
+
+  .partner {
+    align-items: center;
+  }
+
+  .logo-title-partner {
+    padding-top: 50px;
+  }
+
+  .uls {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /*
+  FOOTER
+  */
+
+  .footer-hidden {
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+/* 
+ABOUT ME
+PAGE
+*/
+
+@media (min-width: 765px) {
+  
+}

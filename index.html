@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/desktop.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,12 +17,21 @@
     <nav class="nav-bar">
       <i class="fa fa-bars fa-lg bars"></i>
     </nav>
+    <a href="./index.html" class="a-link"><img src="./img/mobile/logo-soda.png" alt="" class="img-logo-header-hidden"></a>
+    <nav class="nav-bar-hidden">
+      <a href="./aboutme.html" class="nav-bar-hidden-a">About</a>
+      <a href="#" class="nav-bar-hidden-a">Concerts</a>
+      <a href="#" class="nav-bar-hidden-a">Tickets</a>
+      <a href="#" class="nav-bar-hidden-a">Sponsors</a>
+      <a href="#" class="nav-bar-hidden-a">News</a>
+    </nav>
   </header>
   <main>
     <section class="main-page">
       <div class="titles">
         <h1 class="title">Hello! Sharing World</h1>
         <h2 class="title-2">This is <br> Soda Stereo <br> Last Dance <br> Festival</h2>
+        <h2 class="title-2-hidden">This is Soda Stereo <br> Last Dance Festival</h2>
       </div>
       <div class="article">
         <p class="article-p">Soda Stereo started mixing styles like Rock, Ska and Reggae. Through the years, they inclinated towards Rock-Pop</p>
@@ -36,45 +46,53 @@
         <h3 class="main-program-h3">Main Program</h3>
         <hr class="hr">
       </div>
-      <div class="activity">
-        <img src="./img/mobile/guitar-solid.svg" alt="guitar" class="activity-img">
-        <h3 class="activity-h3">Meet <br> and <br> Greet </h3>
-        <p class="activity-p">Meet and Take a Picture with Gustavo Cerati</p>
-      </div>
-      <div class="activity">
-        <img src="./img/mobile/drum-solid.svg" alt="drum" class="activity-img">
-        <h3 class="activity-h3">Disk <br> Sell </h3>
-        <p class="activity-p">You have the chance to get a disk signed by the band</p>
-      </div>
-      <div class="activity">
-        <img src="./img/mobile/music-solid.svg" alt="music" class="activity-img">
-        <h3 class="activity-h3">First <br> Show</h3>
-        <p class="activity-p">Presenting the first show <br> Charly Garcia </p>
-      </div>
-      <div class="activity">
-        <img src="./img/mobile/guitar-solid.svg" alt="guitar" class="activity-img">
-        <h3 class="activity-h3"> Guitar <br> Show </h3>
-        <p class="activity-p">Presenting the Guitar Show: <br> Luis Alberto Spinetta</p>
-      </div>
-      <div class="activity">
-        <img src="./img/mobile/drum-solid.svg" alt="drum" class="activity-img">
-        <h3 class="activity-h3">Drum <br> Show </h3>
-        <p class="activity-p">Presenting the Drum Show <br> Oscar Moro</p>
-      </div>
-      <div class="activity-2">
-        <img src="./img/mobile/music-solid.svg" alt="music" class="activity-img">
-        <h3 class="activity-h3"> Main <br> Show </h3>
-        <p class="activity-p">Meet and Take a Picture with Gustavo Cerati</p>
+      <div class="activities">
+        <div class="activity">
+          <img src="./img/mobile/guitar-solid.svg" alt="guitar" class="activity-img">
+          <h3 class="activity-h3">Meet <br> and <br> Greet </h3>
+          <h3 class="activity-h3-hidden">Meet and Greet</h3>
+          <p class="activity-p">Meet and Take a Picture with Gustavo Cerati</p>
+        </div>
+        <div class="activity">
+          <img src="./img/mobile/drum-solid.svg" alt="drum" class="activity-img">
+          <h3 class="activity-h3">Disk <br> Sell </h3>
+          <h3 class="activity-h3-hidden">Disk Sell</h3>
+          <p class="activity-p">You have the chance to get a disk signed by the band</p>
+        </div>
+        <div class="activity">
+          <img src="./img/mobile/music-solid.svg" alt="music" class="activity-img">
+          <h3 class="activity-h3">First <br> Show</h3>
+          <h3 class="activity-h3-hidden">First Show</h3>
+          <p class="activity-p">Presenting the first show <br> Charly Garcia </p>
+        </div>
+        <div class="activity">
+          <img src="./img/mobile/guitar-solid.svg" alt="guitar" class="activity-img">
+          <h3 class="activity-h3"> Guitar <br> Show </h3>
+          <h3 class="activity-h3-hidden">Guitar Show</h3>
+          <p class="activity-p">Presenting the Guitar Show: <br> Luis Alberto Spinetta</p>
+        </div>
+        <div class="activity">
+          <img src="./img/mobile/drum-solid.svg" alt="drum" class="activity-img">
+          <h3 class="activity-h3">Drum <br> Show </h3>
+          <h3 class="activity-h3-hidden">Drum Show</h3>
+          <p class="activity-p">Presenting the Drum Show <br> Oscar Moro</p>
+        </div>
+        <div class="activity-2">
+          <img src="./img/mobile/music-solid.svg" alt="music" class="activity-img">
+          <h3 class="activity-h3"> Main <br> Show </h3>
+          <h3 class="activity-h3-hidden">Main Show</h3>
+          <p class="activity-p">Meet and Take a Picture with Gustavo Cerati</p>
+        </div>
       </div>
       <div class="button-ticket">
         <button class="ticket">Get your Ticket Here</button>
       </div>
     </section>
     <section class="featured-speakers">
-      <div class="featured-speakers-div">    
+      <div class="featured-speakers-div">
         <h3 class="featured-speakers-h3">Members</h3>
         <hr class="hr">
-      </div>  
+      </div>
       <div class="members">
         <div class="members-team">
           <div class="members-img-div">
@@ -126,11 +144,54 @@
             <p class="members-p">author from all of his songs, known all over the world, one of the greatest</p>
           </div>
         </div>
+        <div class="members-team-hidden">
+          <div class="members-img-div">
+            <img src="./img/mobile/gustavo-cerati.png" alt="Gustavo Cerati" class="members-img">
+          </div>
+          <div class="members-text">
+            <h4 class="members-h4">Luis Alberto Spinnetta</h4>
+            <h5 class="members-h5">Guitar/Singer</h5>
+            <p class="members-p">author from all of his songs, known all over the world, one of the greatest</p>
+          </div>
+        </div>
       </div>
       <div class="button-div">
         <button class="more">More <img src="./img/mobile/chevron-down-solid.svg" alt="down-solid" class="down-solid-img"></button>
       </div>
     </section>
+    <section class="partners-hidden">
+      <div class="partner">
+        <h3 class="logo-title-partner">Partners</h3>
+        <hr class="hr">
+      </div>
+      <div class="uls">
+        <ul class="partners-ul-1">
+          <li class="partners-li">
+            <a class="partners-a" href="#"><img src="./img/mobile/coca-logo.png" alt="coca-logo" class="coca-img"></a>
+          </li>
+          <li class="partners-li">
+            <a class="partners-a" href="#"><img src="./img/mobile/river-logo.png" alt="river-logo" class="river-img"></a>
+          </li>
+          <li class="partners-li">
+            <a class="partners-a" href="#"><img src="./img/mobile/google logo.jpg" alt="google-logo" class="google-img"></a>
+          </li>
+        </ul>
+        <ul class="partners-ul">
+          <li class="partners-li">
+            <a class="partners-a" href="#"><img src="./img/mobile/velez-logo.png" alt="velez-logo" class="velez-img"></a>
+          </li>
+          <li class="partners-li">
+            <a class="partners-a" href="#"><img src="./img/mobile/argentina-logo.png" alt="argentina-logo" class="argentina-img"></a>
+          </li>
+        </ul>
+      </div>
+    </section>
   </main>
+  <footer>
+    <div class="footer-hidden">
+      <img src="./img/mobile/logo-footer.jpg" alt="logo-footer" class="logo-footer">
+      <p class="copyright">2023 Soda Stereo Argentina <br> Some Rights Reserved</p>
+    </div>
+  </footer>
 </body>
 </html>
