@@ -524,7 +524,14 @@ CONCERTS
 .past-concerts {
   background-color: #f7f7f9;
   padding-top: 50px;
-  height:1200px;
+  height:1500px;
+}
+
+.titles-concerts {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
 }
 
 .logo-p-past-concerts {
@@ -534,6 +541,14 @@ CONCERTS
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+.concerts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
 .concert-1 {

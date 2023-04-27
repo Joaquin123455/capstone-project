@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/desktop.css">
+  <link rel="stylesheet" href="./css/stylemenu.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +16,7 @@
 <body>
   <header>
     <nav class="nav-bar">
-      <i class="fa fa-bars fa-lg bars"></i>
+      <i class="fa fa-bars fa-lg bars" id="openOnClick"></i>
     </nav>
     <a href="./index.html" class="a-link"><img src="./img/mobile/logo-soda.png" alt="" class="img-logo-header-hidden"></a>
     <nav class="nav-bar-hidden">
@@ -25,6 +26,15 @@
       <a href="#" class="nav-bar-hidden-a">Sponsors</a>
       <a href="#" class="nav-bar-hidden-a">News</a>
     </nav>
+    <!-- dropdown mobile menu -->
+    <div id="menu" class="mobile-menu">
+      <a href="javascript:void(0)" class="closebtn" id="closeOnClick">&times;</a>
+      <ul id="menuOpt" class="mobile-content">
+        <li><a href="./index.html">Main Page</a></li>
+        <li><a href="./aboutme.html">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
   </header>
   <main>
     <section class="main-page">
@@ -193,5 +203,6 @@
       <p class="copyright">2023 Soda Stereo Argentina <br> Some Rights Reserved</p>
     </div>
   </footer>
+  <script src="./js/menu.js"></script>
 </body>
 </html>

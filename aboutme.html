@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/desktop.css">
+  <link rel="stylesheet" href="./css/stylemenu.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,14 +16,32 @@
 <body>
   <header>
     <nav class="nav-bar">
-      <i class="fa fa-bars fa-lg bars"></i>
+      <i class="fa fa-bars fa-lg bars" id="openOnClick"></i>
     </nav>
+    <a href="./index.html" class="a-link"><img src="./img/mobile/logo-soda.png" alt="" class="img-logo-header-hidden"></a>
+    <nav class="nav-bar-hidden">
+      <a href="./aboutme.html" class="nav-bar-hidden-a">About</a>
+      <a href="#" class="nav-bar-hidden-a">Concerts</a>
+      <a href="#" class="nav-bar-hidden-a">Tickets</a>
+      <a href="#" class="nav-bar-hidden-a">Sponsors</a>
+      <a href="#" class="nav-bar-hidden-a">News</a>
+    </nav>
+    <!-- dropdown mobile menu -->
+    <div id="menu" class="mobile-menu">
+      <a href="javascript:void(0)" class="closebtn" id="closeOnClick">&times;</a>
+      <ul id="menuOpt" class="mobile-content">
+        <li><a href="./index.html">Main Page</a></li>
+        <li><a href="./aboutme.html">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
   </header>
   <main> 
     <section class="main-page">
       <div class="titles">
         <h1 class="title-about-me">Hello! Sharing World</h1>
         <h2 class="title-2-about-me">This is <br> Soda Stereo <br> Last Dance <br> Festival</h2>
+        <h2 class="title-2-hidden-about-me">This is Soda Stereo <br> Last Dance Festival</h2>
       </div>
       <div class="article-about-me">
         <p class="article-p-about-me">Soda Stereo was a rock band formed in Buenos Aires, Argentina in 1982. The band's lineup consisted of lead singer and guitarist Gustavo Cerati, bassist Zeta Bosio, and drummer Charly Alberti. During their career, the band issued seven studio albums before disbanding in 1997.</p>
@@ -46,24 +65,27 @@
       <hr class="new-hr">
     </section>
     <section class="past-concerts">
-      <h3 class="logo-title">See latest Soda Stereo's Concert</h3>
-      <hr class="hr-about-me">
-      <p class="logo-p-past-concerts">Take a look at the last concerts which took place in <br> Buenos Aires
-    </div>
-    <div class="concert-1">
-      <div class="letters-concert">
-        <h4 class="date-about-me">2020</h4>
-        <h5 class="location-about-me">Estadio River Plate</h5>
+      <div class="titles-concerts">
+        <h3 class="logo-title">See latest Soda Stereo's Concert</h3>
+        <hr class="hr-about-me">
+        <p class="logo-p-past-concerts">Take a look at the last concerts which took place in <br> Buenos Aires
       </div>
-    </div>
-    <div class="concert-1">
-      <div class="letters-concert">
-        <h4 class="date-about-me">2020</h4>
-        <h5 class="location-about-me">Estadio Velez Sarsfield</h5>
+      <div class="concerts">
+        <div class="concert-1">
+          <div class="letters-concert">
+            <h4 class="date-about-me">2020</h4>
+            <h5 class="location-about-me">Estadio River Plate</h5>
+          </div>
+        </div>
+        <div class="concert-1">
+          <div class="letters-concert">
+            <h4 class="date-about-me">2020</h4>
+            <h5 class="location-about-me">Estadio Velez Sarsfield</h5>
+          </div>
+        </div>
       </div>
-    </div>
     </section>
-    <section class="partners">\
+    <section class="partners">
       <div class="partner">
         <h3 class="logo-title-partner">Partners</h3>
         <hr class="hr">
@@ -93,5 +115,6 @@
     <img src="./img/mobile/logo-footer.jpg" alt="logo-footer" class="logo-footer">
     <p class="copyright">2023 Soda Stereo Argentina <br> Some Rights Reserved</p>
   </footer>
+  <script src="./js/menu.js"></script>
 </body>
 </html>
