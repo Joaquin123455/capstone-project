@@ -32,6 +32,7 @@ Portfolio: Microverse-mobile-first
 ## 🛠 Built With <a name="built-with">
 ### Tech Stack <a name="tech-stack"></a>
 - HTML
+- JAVASCRIPT
 - CSS
 
 </a>
@@ -40,7 +41,7 @@ Portfolio: Microverse-mobile-first
 
 ### Key Features <a name="key-features"></a>
 
-- **Good HTML and CSS practices**
+- **Good HTML, CSS, and Javascript practices**
 - **This repository includes linters**
 
 
@@ -65,14 +66,13 @@ Clone this repository to your desired folder:
 - clone the project using by running the following command :
 
 `git clone`
-`https://github.com/Joaquin123455/microverse-portfolio.git`
+`https://github.com/Joaquin123455/capstone-project.git`
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://joaquin123455.github.io/microverse-portfolio/)
-- [Live Walkthrough](https://www.loom.com/share/1a0a5b2fefe5429eb23322efb8bacc90)
+- [Live Demo Link](https://joaquin123455.github.io/capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,7 +95,6 @@ Clone this repository to your desired folder:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Make the project more professional**
-- [ ] **I will set up the mobile version**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
