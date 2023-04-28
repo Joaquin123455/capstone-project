@@ -5,7 +5,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background: 	rgb(211,211,211,0.95);
+  background: rgb(211, 211, 211, 0.95);
   backdrop-filter: blur(15px);
   mix-blend-mode: multiply;
   overflow-y: hidden;
