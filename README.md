@@ -120,7 +120,7 @@ If you like this project you should give me a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for the opportunity.
+I would like to thank Cindy Shin for the awesome work she did in that project i took as a template!.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

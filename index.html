@@ -8,24 +8,35 @@
   <link rel="stylesheet" href="./css/desktop.css">
   <link rel="stylesheet" href="./css/stylemenu.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,300&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8f2b1befa0.js" crossorigin="anonymous"></script>
   <title>Capstone Project by Joaquin</title>
 </head>
 <body>
   <header>
-    <nav class="nav-bar">
-      <i class="fa fa-bars fa-lg bars" id="openOnClick"></i>
+    <nav class="socials">
+      <a href="#" class="nav-bar-socials"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#" class="nav-bar-socials"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#" class="nav-bar-socials">English</a>
+      <a href="#" class="nav-bar-socials">My Page</a>
+      <a href="#" class="nav-bar-socials">Logout</a>
     </nav>
-    <a href="./index.html" class="a-link"><img src="./img/mobile/logo-soda.png" alt="" class="img-logo-header-hidden"></a>
-    <nav class="nav-bar-hidden">
-      <a href="./aboutme.html" class="nav-bar-hidden-a">About</a>
-      <a href="#" class="nav-bar-hidden-a">Concerts</a>
-      <a href="#" class="nav-bar-hidden-a">Tickets</a>
-      <a href="#" class="nav-bar-hidden-a">Sponsors</a>
-      <a href="#" class="nav-bar-hidden-a">News</a>
-    </nav>
+    <div class="desktop-nav-bar">
+      <div class="logo">
+        <a href="./index.html" class="a-link"><img src="./img/mobile/logo-soda.png" alt="Logo-Soda" class="img-logo-header-hidden"></a>
+      </div>
+      <nav class="nav-bar-hidden">
+        <a href="./aboutme.html" class="nav-bar-hidden-a">About</a>
+        <a href="#" class="nav-bar-hidden-a">Concerts</a>
+        <a href="#" class="nav-bar-hidden-a">Tickets</a>
+        <a href="#" class="nav-bar-hidden-a">Sponsors</a>
+        <a href="#" class="nav-bar-hidden-a">News</a>
+        <a href="./index.html" class="nav-bar-hidden-2">Home</a>
+      </nav>
+    </div>
     <!-- dropdown mobile menu -->
     <div id="menu" class="mobile-menu">
       <a href="javascript:void(0)" class="closebtn" id="closeOnClick">&times;</a>
@@ -38,13 +49,16 @@
   </header>
   <main>
     <section class="main-page">
+      <nav class="nav-bar">
+        <i class="fa fa-bars fa-lg bars" id="openOnClick"></i>
+      </nav>
       <div class="titles">
         <h1 class="title">Hello! Sharing World</h1>
         <h2 class="title-2">This is <br> Soda Stereo <br> Last Dance <br> Festival</h2>
         <h2 class="title-2-hidden">This is Soda Stereo <br> Last Dance Festival</h2>
       </div>
       <div class="article">
-        <p class="article-p">Soda Stereo started mixing styles like Rock, Ska and Reggae. Through the years, they inclinated towards Rock-Pop</p>
+        <p class="article-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aliquid libero, nostrum excepturi architecto doloremque cupiditate nulla necessitatibus laudantium</p>
       </div>
       <div class="date">
         <p class="dates">2023.12.23(SAT) ~ 23 (SUN) </p>
@@ -57,56 +71,52 @@
         <hr class="hr">
       </div>
       <div class="activities">
-        <div class="activity">
+        <article class="activity">
           <img src="./img/mobile/guitar-solid.svg" alt="guitar" class="activity-img">
           <h3 class="activity-h3">Meet <br> and <br> Greet </h3>
           <h3 class="activity-h3-hidden">Meet and Greet</h3>
           <p class="activity-p">Meet and Take a Picture with Gustavo Cerati</p>
-        </div>
-        <div class="activity">
+        </article>
+        <article class="activity">
           <img src="./img/mobile/drum-solid.svg" alt="drum" class="activity-img">
           <h3 class="activity-h3">Disk <br> Sell </h3>
           <h3 class="activity-h3-hidden">Disk Sell</h3>
           <p class="activity-p">You have the chance to get a disk signed by the band</p>
-        </div>
-        <div class="activity">
+        </article>
+        <article class="activity">
           <img src="./img/mobile/music-solid.svg" alt="music" class="activity-img">
           <h3 class="activity-h3">First <br> Show</h3>
           <h3 class="activity-h3-hidden">First Show</h3>
           <p class="activity-p">Presenting the first show <br> Charly Garcia </p>
-        </div>
-        <div class="activity">
+        </article>
+        <article class="activity">
           <img src="./img/mobile/guitar-solid.svg" alt="guitar" class="activity-img">
           <h3 class="activity-h3"> Guitar <br> Show </h3>
           <h3 class="activity-h3-hidden">Guitar Show</h3>
           <p class="activity-p">Presenting the Guitar Show: <br> Luis Alberto Spinetta</p>
-        </div>
-        <div class="activity">
+        </article>
+        <article class="activity">
           <img src="./img/mobile/drum-solid.svg" alt="drum" class="activity-img">
           <h3 class="activity-h3">Drum <br> Show </h3>
           <h3 class="activity-h3-hidden">Drum Show</h3>
           <p class="activity-p">Presenting the Drum Show <br> Oscar Moro</p>
-        </div>
-        <div class="activity-2">
+        </article>
+        <article class="activity-2">
           <img src="./img/mobile/music-solid.svg" alt="music" class="activity-img">
           <h3 class="activity-h3"> Main <br> Show </h3>
           <h3 class="activity-h3-hidden">Main Show</h3>
           <p class="activity-p">Meet and Take a Picture with Gustavo Cerati</p>
-        </div>
+        </article>
       </div>
       <div class="button-ticket">
         <button class="ticket">Get your Ticket Here</button>
       </div>
+      <div class="button-see">
+        <a href="#" class="see-button">See The Whole Program</a>
+      </div>
     </section>
-    <section class="featured-speakers" id="festival-members">
-      <div class="featured-speakers-div">
-        <h3 class="featured-speakers-h3">Members</h3>
-        <hr class="hr">
-      </div>
-      <div class="members">
-      </div>
-      <div class="button-div">
-        <button class="more">More <img src="./img/mobile/chevron-down-solid.svg" alt="down-solid" class="down-solid-img"></button>
+    <section id="speakers" class="speakers">
+      <div id="flexcards" class="flex-card">
       </div>
     </section>
     <section class="partners-hidden">

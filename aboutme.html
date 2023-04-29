@@ -15,17 +15,26 @@
 </head>
 <body>
   <header>
-    <nav class="nav-bar">
-      <i class="fa fa-bars fa-lg bars" id="openOnClick"></i>
+    <nav class="socials">
+      <a href="#" class="nav-bar-socials"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#" class="nav-bar-socials"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#" class="nav-bar-socials">English</a>
+      <a href="#" class="nav-bar-socials">My Page</a>
+      <a href="#" class="nav-bar-socials">Logout</a>
     </nav>
-    <a href="./index.html" class="a-link"><img src="./img/mobile/logo-soda.png" alt="" class="img-logo-header-hidden"></a>
-    <nav class="nav-bar-hidden">
-      <a href="./aboutme.html" class="nav-bar-hidden-a">About</a>
-      <a href="#" class="nav-bar-hidden-a">Concerts</a>
-      <a href="#" class="nav-bar-hidden-a">Tickets</a>
-      <a href="#" class="nav-bar-hidden-a">Sponsors</a>
-      <a href="#" class="nav-bar-hidden-a">News</a>
-    </nav>
+    <div class="desktop-nav-bar">
+      <div class="logo">
+        <a href="./index.html" class="a-link"><img src="./img/mobile/logo-soda.png" alt="Logo-Soda" class="img-logo-header-hidden"></a>
+      </div>
+      <nav class="nav-bar-hidden">
+        <a href="./aboutme.html" class="nav-bar-hidden-a">About</a>
+        <a href="#" class="nav-bar-hidden-a">Concerts</a>
+        <a href="#" class="nav-bar-hidden-a">Tickets</a>
+        <a href="#" class="nav-bar-hidden-a">Sponsors</a>
+        <a href="#" class="nav-bar-hidden-a">News</a>
+        <a href="./index.html" class="nav-bar-hidden-2">Home</a>
+      </nav>
+    </div>
     <!-- dropdown mobile menu -->
     <div id="menu" class="mobile-menu">
       <a href="javascript:void(0)" class="closebtn" id="closeOnClick">&times;</a>
@@ -38,20 +47,23 @@
   </header>
   <main> 
     <section class="main-page">
+      <nav class="nav-bar">
+        <i class="fa fa-bars fa-lg bars" id="openOnClick"></i>
+      </nav>
       <div class="titles">
         <h1 class="title-about-me">Hello! Sharing World</h1>
         <h2 class="title-2-about-me">This is <br> Soda Stereo <br> Last Dance <br> Festival</h2>
         <h2 class="title-2-hidden-about-me">This is Soda Stereo <br> Last Dance Festival</h2>
       </div>
       <div class="article-about-me">
-        <p class="article-p-about-me">Soda Stereo was a rock band formed in Buenos Aires, Argentina in 1982. The band's lineup consisted of lead singer and guitarist Gustavo Cerati, bassist Zeta Bosio, and drummer Charly Alberti. During their career, the band issued seven studio albums before disbanding in 1997.</p>
+        <p class="article-p-about-me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ratione maxime recusandae provident? Quaerat neque earum omnis cupiditate alias. Quos architecto provident aliquid. Eum doloremque, quisquam autem mollitia repellat eius..</p>
       </div>
       <div class="contact">
         <p class="contact-p"> Please, contact us per Email for further questions </p>
         <p class="email">contact@sodastereo.com</p>
       </div>
     </section>
-    <section class="logo">
+    <section class="logo-section">
       <div class="creative-commons">
         <h3 class="logo-title">Creative Commons <br> Soda Stereo Logo</h3>
         <hr class="hr-about-me">
@@ -112,8 +124,10 @@
     </section>
   </main>
   <footer>
-    <img src="./img/mobile/logo-footer.jpg" alt="logo-footer" class="logo-footer">
-    <p class="copyright">2023 Soda Stereo Argentina <br> Some Rights Reserved</p>
+    <div class="black-footer">
+      <img src="./img/mobile/logo-footer.jpg" alt="logo-footer" class="logo-footer">
+      <p class="copyright">2023 Soda Stereo Argentina <br> Some Rights Reserved</p>
+    </div>
   </footer>
   <script src="./js/menu.js"></script>
 </body>

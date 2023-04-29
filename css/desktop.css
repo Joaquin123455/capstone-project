@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
+
 @media (min-width: 765px) {
   body {
     min-width: 765px;
@@ -9,33 +11,81 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 90px;
+    width: 100%;
+  }
+  
+  .socials {
+    background-color: #3c3a39;
+    background-size: cover;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    justify-content: right;
+    color: #fff;
+    padding-right: 150px;
+  }
+
+  .nav-bar-socials {
+    text-decoration: none;
+    color: #fff;
   }
 
   .nav-bar {
     display: none;
   }
 
-  .img-logo-header-hidden {
+  .desktop-nav-bar {
     display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
     width: 100%;
-    margin-left: 150px;
+  }
+
+  .logo {
+    display: flex;
+    width: 3%;
+    padding-left: 10%;
   }
 
   .a-link {
-    width: 50px;
-    height: 50px;
+    text-decoration: none;
+  }
+
+  .img-logo-header-hidden {
+    display: flex;
+    width: 100%;
   }
 
   .nav-bar-hidden {
     display: flex;
-    gap: 50px;
-    margin-right: 150px;
+    text-align: center;
+    align-items: center;
+    padding-right: 10%;
+    gap: 40px;
   }
 
   .nav-bar-hidden-a {
     text-decoration: none;
     color: black;
+  }
+
+  .nav-bar-hidden-a:hover {
+    color: #ec5242;
+    transition: 0.3s;
+  }
+
+  .nav-bar-hidden-2 {
+    display: flex;
+    text-decoration: none;
+    color: #ec5242;
+    border: 3px solid #ec5242;
+    padding: 5px 10px;
   }
 
   /*
@@ -44,7 +94,7 @@
   */
 
   .main-page {
-    margin: 150px;
+    padding: 150px;
   }
 
   .title {
@@ -128,40 +178,57 @@
     width: 100%;
   }
 
+  .button-ticket {
+    display: none;
+  }
+
+  .button-see {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  .see-button {
+    text-decoration: underline;
+    color: white;
+    
+  }
+
   /*
   FEATURED
   SPEAKERS
   */
 
-  .members {
+  .speakers {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    gap: 10px;
-    padding-bottom: 50px;
-    margin: 0 24px;
+    align-items: center;
   }
 
-  .members-team {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgba(128, 128, 128, 0.8);
-    border-radius: 10px;
-    text-align: center;
+  .flex-card {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 6fr;
+    gap: 2rem;
   }
 
-  .members-img-div {
-    width: 80%;
+  .card-img {
+    width: 300px;
+    height: 200px;
   }
-
-  .members-img {
-    width: 100%;
+  
+  .card-img-div {
+    width: 300px;
+    height: 200px;
   }
 
   .button-div {
     display: none;
   }
+
 
   /*
   PARTNERS
@@ -171,7 +238,7 @@
     display: flex;
     flex-direction: column;
     background-color: #343a40;
-    height: 300px;
+    height: 350px;
   }
 
   .partner {
@@ -274,14 +341,20 @@ PAGE
   FOOTER
   */
 
-  .footer {
+  .black-footer {
+    background-color: #343a40;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 50px;
+    width: 100%;
+    color: white;
+    font-family: 'Lato', sans-serif;
   }
-
+  
   .logo-footer {
-    width: 5%;
+    width: 10%;
     padding-top: 25px;
   }
 

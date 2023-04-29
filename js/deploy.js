@@ -1,58 +1,123 @@
-const details = [
+const speakers = [
   {
     img: './img/mobile/gustavo-cerati.png',
-    title: 'Gustavo Cerati',
-    sub_title: 'Singer',
-    paragraph: 'Author from all of his songs, known all over the world, one of the greatest',
+    name: 'Gustavo Cerati',
+    title: 'Guitar/Singer',
+    description: 'The master mind inside Soda Stereo',
   },
 
   {
     img: './img/mobile/gustavo-cerati.png',
-    title: 'Zeta Bosio',
-    sub_title: 'Guitar Player',
-    paragraph: 'The right hand of Gustavo in the stage. Born in San Fernando, Buenos Aires.',
+    name: 'Zeta Bosio',
+    title: 'Guitar',
+    description: 'The right hand of Gustavo',
   },
 
   {
     img: './img/mobile/gustavo-cerati.png',
-    title: 'Charly Alberti',
-    sub_title: 'Drummer',
-    paragraph: 'Drummer of one the greatest bands ever. Born in Buenos Aires.',
+    name: 'Charly Alberty',
+    title: 'Drums',
+    description: 'Great Drummer Born in Buenos Aires',
   },
 
   {
     img: './img/mobile/gustavo-cerati.png',
-    title: 'Charly Garcia',
-    sub_title: 'Piano/Singer',
-    paragraph: 'The Famous -Cuna del Rock-, the creator of the Rock Nacional.',
+    name: 'Oscar Moro',
+    title: 'Drums',
+    description: 'Former Seru Giran, Born in Santa Fe, Argentina',
   },
 
   {
     img: './img/mobile/gustavo-cerati.png',
-    title: 'Luis Alberto Spinnetta',
-    sub_title: 'Guitar/Singer',
-    paragraph: 'Know for his complexity in the guitar, angelical voice, the impulse if the Rock Nacional',
+    name: 'Charly Garcia',
+    title: 'Paino/Singer',
+    description: 'The Creator of Rock Nacional',
   },
 
+  {
+    img: './img/mobile/gustavo-cerati.png',
+    name: 'Luis Alberto Spinetta',
+    title: 'Guitar/Singer',
+    description: 'The impulse of Rock Nacional',
+  },
 ];
 
-const cardWorks = document.querySelector('#festival-members');
+const speaker = document.querySelector('#speakers');
+const featuredSpeakers = document.createElement('div');
+const flexcards = document.createElement('div');
 
-cardWorks.className = 'members';
-for (let i = 0; i < details.length; i += 1) {
-  const workCard = document.createElement('section');
-  const workCardDiv = document.createElement('div');
-  workCardDiv.className = 'featured-speakers';
-  cardWorks.appendChild(workCard);
-  workCard.className = 'members';
-  workCard.innerHTML = `<div class="members-team">
-  <div class="members-img-div">
-    <img src="${details[i].img}" alt="Gustavo-Cerati" class="members-img">
-  </div>
-  <div class="members-text">
-    <h4 class="members-h4">${details[i].title}</h4>
-    <h5 class="members-h5">${details[i].sub_title}</h5>
-    <p class="members-p">${details[i].paragraph}</p>
-  </div>
- </div>`;
-}
+featuredSpeakers.innerHTML = `<h2>Featured Speakers</h2>
+<hr class="hr">`;
+speaker.appendChild(featuredSpeakers);
+
+flexcards.className = 'flex-card';
+flexcards.innerHTML = `<div class="card">
+<div class="card-img-div">
+  <img src=${speakers[0].img} class="card-img">
+</div>
+<div class="content-card">
+  <h4><b>${speakers[0].name}</b></h4>
+  <p class="speaker_title">${speakers[0].title}</p>
+  <hr class="hr">
+  <p>${speakers[0].description}</p>
+</div>
+</div>
+<div class="card">
+<div class="card-img-div">
+  <img src=${speakers[1].img} class="card-img">
+</div>
+<div class="content-card">
+  <h4><b>${speakers[1].name}</b></h4>
+  <p class="speaker_title">${speakers[1].title}</p>
+  <hr class="hr">
+  <p>${speakers[1].description}</p>
+</div>
+</div>
+<div class="card">
+<div class="card-img-div">
+  <img src=${speakers[2].img} class="card-img" alt="Avatar">
+</div>
+<div class="content-card">
+  <h4><b>${speakers[2].name}</b></h4>
+  <hr class="hr">
+  <p>${speakers[2].description}</p>
+</div>
+</div>
+<div class="card">
+<div class="card-img-div">
+  <img src=${speakers[3].img} class="card-img" alt="Avatar">
+</div>
+<div class="content-card">
+  <h4><b>${speakers[3].name}</b></h4>
+  <p class="speaker_title">${speakers[3].title}</p>
+  <hr class="hr">
+  <p>${speakers[3].description}</p>
+</div>
+</div>
+<div class="card">
+<div class="card-img-div">
+  <img src=${speakers[4].img} class="card-img" alt="Avatar">
+</div>
+<div class="content-card">
+  <h4><b>${speakers[4].name}</b></h4>
+  <p class="speaker_title">${speakers[4].title}</p>
+  <hr class="hr">
+  <p>${speakers[4].description}</p>
+</div>
+</div>
+<div class="card">
+<div class="card-img-div">
+  <img src=${speakers[5].img} class="card-img" alt="Avatar">
+</div>
+<div class="content-card">
+  <h4><b>${speakers[5].name}</b></h4>
+  <p class="speaker_title">${speakers[5].title}</p>
+  <hr class="hr">
+  <p>${speakers[5].description}</p>
+</div>
+</div>
+<div class="button-div">
+<button class="more">More <img src="./img/mobile/chevron-down-solid.svg" alt="down-solid" class="down-solid-img"></button>
+</div>`;
+
+speaker.appendChild(flexcards);
