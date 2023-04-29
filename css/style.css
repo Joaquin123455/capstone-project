@@ -66,11 +66,10 @@ MAIN PAGE
 
 .title {
   font-size: 25px;
-  font-weight: 400;
   padding-top: 40px;
   color: black;
   font-family: 'Lato', sans-serif;
-  font-weight: 700px;
+  font-weight: 700;
 }
 
 .title-2 {
@@ -280,7 +279,6 @@ SPEAKERS
 .content-card {
   display: flex;
   flex-direction: column;
-  align-items: left;
   justify-content: center;
 }
 
