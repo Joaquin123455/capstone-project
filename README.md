@@ -73,7 +73,7 @@ Clone this repository to your desired folder:
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://joaquin123455.github.io/capstone-project/)
-- [Live Presentation](https://www.loom.com/share/48f986ccdb5c4d4a84da2c2f2ddd30bb)
+- [Live Presentation](https://www.loom.com/share/98206a9dd5c74df9b6c47908631ce7df)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

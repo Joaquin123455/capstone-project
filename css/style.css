@@ -233,6 +233,7 @@ MAIN PROGRAM
   background-color: orangered;
   box-sizing: border-box;
   border: 1px solid orangered;
+  color: white;
 }
 
 .ticket:hover {
@@ -299,6 +300,10 @@ SPEAKERS
 .card-img-div {
   width: 100px;
   height: 100px;
+}
+
+.button-see {
+  display: none;
 }
 
 .button-div {
