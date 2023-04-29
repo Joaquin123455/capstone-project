@@ -228,7 +228,6 @@
     display: none;
   }
 
-
   /*
   PARTNERS
   */
@@ -344,12 +343,12 @@ PAGE
     background-color: #343a40;
     background-size: cover;
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 50px;
     width: 100%;
     color: white;
     font-family: 'Lato', sans-serif;
+    padding-left: 30%;
   }
 
   .logo-footer {
